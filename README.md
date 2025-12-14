@@ -1,9 +1,5 @@
 # Instacart Shopping Pattern Analysis
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![pandas](https://img.shields.io/badge/pandas-2.0+-green.svg)](https://pandas.pydata.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 ## Overview
 
 This project analyzes 3.4+ million Instacart orders to uncover shopping behavior patterns, with a focus on temporal trends and category performance. The analysis identifies actionable insights for operational planning, inventory management, and targeted marketing strategies.
@@ -12,17 +8,17 @@ This project analyzes 3.4+ million Instacart orders to uncover shopping behavior
 
 ## Key Findings
 
-### 🕐 Temporal Patterns
+### Patterns
 - **Peak days shift weekly:** Sunday and Monday drive the highest order volumes, suggesting customers prepare for the week ahead
 - **Time-of-day varies by day type:** Weekday orders peak at 10-11 AM, while weekend orders peak 2-3 hours later at 1-3 PM
 - **Consistent evening decline:** Order activity drops sharply after 5 PM across all days
 
-### 🛒 Shopping Behavior
+### Shopping Behavior
 - **Weekend stock-up effect:** Weekend baskets average 15% larger than weekdays (10.2 vs 8.9 items)
 - **Late-night planning:** Orders placed 9 PM-midnight show 20% higher basket sizes despite lower volumes
 - **Cross-category consistency:** Late-night basket increase spans all departments, not driven by specific categories
 
-### 📦 Category Insights
+### Category Insights
 - **Top 3 dominate:** Produce, dairy eggs, and beverages appear in 60%+ of all orders
 - **Synchronized patterns:** Leading categories follow identical hourly and daily trends
 - **No category-specific surges:** All departments decline uniformly after 5 PM
@@ -45,13 +41,13 @@ This project analyzes 3.4+ million Instacart orders to uncover shopping behavior
 
 ## Dataset
 
-**Source:** [Instacart Market Basket Analysis (Kaggle)](https://www.kaggle.com/c/instacart-market-basket-analysis)
+**Source:** [Instacart Market Basket Analysis (Kaggle)](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis)
 
 > **⚠️ Note:** Due to GitHub's file size limitations (100 MB per file), the dataset files are **not included** in this repository. You must download them separately from Kaggle to run the analysis.
 
 ### Download Instructions
 
-1. Visit the [Instacart Market Basket Analysis dataset page](https://www.kaggle.com/c/instacart-market-basket-analysis/data) on Kaggle
+1. Visit the [Instacart Market Basket Analysis dataset page](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis) on Kaggle
 2. Click "Download All" (requires free Kaggle account)
 3. Extract the downloaded files
 4. Place the following CSV files in the `dataset/` folder:
@@ -130,7 +126,7 @@ cd instacart_market_basket
 ```
 
 **2. Download the dataset** (REQUIRED)
-- Visit [Kaggle's Instacart dataset page](https://www.kaggle.com/c/instacart-market-basket-analysis/data)
+- Visit [Kaggle's Instacart dataset page](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis)
 - Download all CSV files
 - Place them in the `dataset/` folder in your local repository
 
@@ -190,7 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Dataset provided by [Instacart via Kaggle](https://www.kaggle.com/c/instacart-market-basket-analysis)
+- Dataset provided by [Instacart via Kaggle](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis)
 - Analysis inspired by real-world grocery delivery operational challenges
 - Tools and libraries maintained by the Python data science community
 
