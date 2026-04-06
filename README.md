@@ -177,7 +177,6 @@ The analysis includes 11 key visualizations:
 - [ ] Geographic analysis if location data becomes available
 
 ### Limitations
-- **Scheduled orders:** Dataset doesn't indicate if orders were placed in advance for future delivery
 - **Customer demographics:** No age, income, or household size data to enable behavioral segmentation
 - **Product quantities:** Data shows which products appear in orders but not quantities purchased
 - **Temporal scope:** Analysis is limited to available historical data without seasonal trends
