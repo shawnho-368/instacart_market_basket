@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project analyzes 3.4+ million Instacart orders to uncover shopping behavior patterns, with a focus on temporal trends and category performance. The analysis identifies actionable insights for operational planning, inventory management, and targeted marketing strategies.
+This project analyzes 3.4+ million Instacart orders to uncover shopping behavior patterns, with a focus on temporal trends and category performance. The analysis identifies actionable insights for operational planning, inventory management, and targeted marketing strategies. This analysis is framed from the perspective of an ops or growth team trying to allocate staffing, inventory, and marketing spend more efficiently.
 
 **Key Question:** *When do customers shop, and how does their behavior differ between weekdays and weekends?*
 
@@ -38,6 +38,8 @@ This project analyzes 3.4+ million Instacart orders to uncover shopping behavior
 | **Promotional campaigns** | Weekdays 9-10 AM, Weekends 12-1 PM | Capture pre-peak planning window |
 | **Late-night engagement** | 8-11 PM targeted messaging | Leverage high-intent, large-basket shoppers |
 | **Weekly prep bundles** | Sunday morning featured placement | Align with beginning-of-week behavior |
+
+It's worth noting that the dataset doesn't distinguish between orders placed in real time versus those scheduled in advance. This limits the confidence of demand-based recommendations, as observed order timing may not reflect actual shopping intent at that moment.
 
 ## Dataset
 
